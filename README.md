@@ -21,7 +21,7 @@ A perfect first challenge if you're new to HTML and CSS. The card layout doesn't
 
 ### Screenshot
 
-![](./images/Screenshot_QR code component_Desktop.png)
+![](./images/Screenshot.png)
 
 ### Links
 
