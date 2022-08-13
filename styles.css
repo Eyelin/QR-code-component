@@ -10,10 +10,8 @@ html {
 body {
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
-  /* margin-bottom: 30px; */
   text-align: center;
   min-height: 100%;
-  /* position: relative; */
 }
 
 div.card {
@@ -57,18 +55,3 @@ h5 {
   font-size: 0.938rem;
   line-height: 18.9px;
 }
-/* footer {
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  height: 30px;
-  width: 100%;
-  font-size: 11px;
-}
-.footer-text {
-  color: hsl(220, 15%, 55%);
-  display: inline;
-}
-a {
-  color: hsl(228, 45%, 44%);
-} */
