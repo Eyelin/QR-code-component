@@ -1,36 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   position: relative;
-  min-height: 100%;
+  height: 100%;
 }
+
 body {
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
-  font-size: 14px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   text-align: center;
+  min-height: 100%;
+  /* position: relative; */
 }
+
 div.card {
   background-color: white;
-  border-radius: 15px;
-  margin: 70px auto;
-  width: 290px;
+  border-radius: 20px;
+  width: 320px;
+  height: 497px;
+  padding: 0;
+  /* center the container vertically/horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
 }
+
+div.card-body {
+  padding-top: 0px;
+}
+
 .div-img {
   padding: 15px;
 }
+
 .img-border {
   border-radius: 10px;
 }
+
 h5 {
   color: hsl(218, 44%, 22%);
   font-weight: bold;
+  font-size: 1.375rem;
+  line-height: 27.72px;
+  padding-top: 11px;
 }
+
 .card-subtitle {
   color: hsl(220, 15%, 55%);
-  padding: 8px 15px 15px;
-  line-height: normal;
+  padding: 11px 15px 15px;
+  font-size: 0.938rem;
+  line-height: 18.9px;
 }
-footer {
+/* footer {
   position: absolute;
   left: 0px;
   bottom: 0px;
@@ -44,4 +71,4 @@ footer {
 }
 a {
   color: hsl(228, 45%, 44%);
-}
+} */
