@@ -21,11 +21,11 @@ A perfect first challenge if you're new to HTML and CSS. The card layout doesn't
 
 ### Screenshot
 
-![](./images/Screenshot \_QR code component_Desktop.png)
+![](./images/Screenshot_QR code component_Desktop.png)
 
 ### Links
 
-- Live Site URL: [Click here!](https://eyelin.github.io/QR-code-component/)
+- [Live Site URL](https://eyelin.github.io/QR-code-component/)
 
 ## My process
 
