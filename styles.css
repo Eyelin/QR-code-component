@@ -20,13 +20,6 @@ div.card {
   width: 320px;
   height: 497px;
   padding: 0;
-  /* center the container vertically/horizontally */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
 }
 
 div.card-body {
@@ -54,4 +47,24 @@ h5 {
   padding: 11px 15px 15px;
   font-size: 0.938rem;
   line-height: 18.9px;
+}
+
+@media only screen and (min-width: 600px) {
+  /* Small devices and up (desktop, portrait tablets and large phones) */
+  div.card {
+    /* center the container vertically/horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* Extra small devices (phones, 600px and down) */
+  div.card {
+    margin: 50px auto;
+  }
 }
