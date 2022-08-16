@@ -25,7 +25,7 @@ A perfect first challenge if you're new to HTML and CSS. The card layout doesn't
 
 ### Links
 
-- [Solution] (https://www.frontendmentor.io/solutions/my-first-html-and-css-solution-using-bootstrap-shvj6XFKS4)
+- [Solution](https://www.frontendmentor.io/solutions/my-first-html-and-css-solution-using-bootstrap-shvj6XFKS4)
 - [Live Site URL](https://eyelin.github.io/QR-code-component/)
 
 ## My process
